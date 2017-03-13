@@ -1,0 +1,68 @@
+.hd {
+    padding: 2em 0;
+}
+
+#main {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+#body {
+    position: absolute;
+    top: 45px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+}
+
+#content {
+    position: absolute;
+    top: 10px;
+    bottom: 35px;
+    left: 15px;
+    right: 15px;
+    overflow: auto;
+}
+
+#input {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.line {
+    margin: 5px 10px;
+}
+
+.resp-header {
+    padding: 5px 10px;
+    position: relative;
+}
+
+.resp-header:after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    border-top: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+
+.l-icon-del {
+    position: absolute;
+    right: 4px;
+    top: 10px;
+    z-index: 9999;
+}
+.l-icon-del:hover {
+    cursor: pointer;
+}

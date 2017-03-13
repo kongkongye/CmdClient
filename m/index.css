@@ -1,0 +1,28 @@
+.page_title {
+    text-align: center;
+    font-size: 34px;
+    color: #3cc51f;
+    font-weight: 400;
+    margin: 0 15%;
+}
+
+.cell .page_title {
+    color: #225fba;
+}
+
+.hd {
+    padding: 1em 0;
+}
+
+#content {
+    border: solid 1px #4a914a;
+    border-radius: 5px;
+    margin: 5px 10px;
+    height: 300px;
+    font-size: 14px;
+    overflow: auto;
+}
+
+#content div{
+    padding: 5px 15px;
+}

@@ -1,0 +1,48 @@
+/*指通用的*/
+.hide {
+    display: none !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.block {
+    display: block;
+}
+
+.yh {
+    font-family: "微软雅黑";
+}
+
+/*行内提示*/
+.nocode {
+    display: inline-block;
+    background-color: #99c2ff;
+    color: #223f7a;
+    border: 1px solid #e1e1e8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 18px;
+    padding: 0px 2px;
+}
+
+kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+}
+
+.l-icon-del {
+    color: lightgrey;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>命令客户端</title>
+
+    <link rel="stylesheet" type="text/css" href="//apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="//apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../common/common.css"/>
+    <link rel="stylesheet" href="../mpc/mpc.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+
+    <script src="//apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../common/common.js"></script>
+    <script src="../mpc/mpc.js"></script>
+    <script src="../client.js"></script>
+    <script src="pc.js"></script>
+</head>
+<body>
+    <script>
+        window.m = false;
+    </script>
+
+    <div id="main" class="panel panel-primary">
+        <div class="panel-heading">命令客户端</div>
+        <div id="body" class="panel-body">
+            <div id="content" class="panel panel-success">
+            </div>
+            <form id="input" class="form-inline" role="form">
+                <div class="form-group">
+                    <div class="input-group del-holder">
+                        <label class="input-group-addon" for="host">域名</label>
+                        <input id="host" type="text" class="form-control" placeholder="域名" value="cmd-server.kongkongye.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <label class="input-group-addon" for="port">端口</label>
+                        <input id="port" type="number" class="form-control" placeholder="端口" style="width: 8rem;" value="80">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group del-holder">
+                        <label class="input-group-addon" for="cmd">命令</label>
+                        <input id="cmd" type="text" class="form-control" placeholder="命令" style="width: 20rem;" value="#user login name pwd">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="submit" class="btn btn-success" value="提交" onclick="return send();">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
